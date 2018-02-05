@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player"
+            android:inputType="textCapWords"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/_berlin_cats"
+            android:textAllCaps="true" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/q1_radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/_1_cat"
+                android:textSize="@dimen/text_size_checkbox" />
+
+            <RadioButton
+                android:id="@+id/q1_radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/_2_cats"
+                android:textSize="@dimen/text_size_checkbox" />
+
+            <RadioButton
+                android:id="@+id/q1_radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/_3_cats"
+                android:textSize="@dimen/text_size_checkbox" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/_friends"
+            android:textAllCaps="true" />
+
+            <CheckBox
+                android:id="@+id/q2_check_box1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/_old_young"
+                android:textSize="@dimen/text_size_checkbox" />
+
+            <CheckBox
+                android:id="@+id/q2_check_box2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/_berlin_boys"
+                android:textSize="@dimen/text_size_checkbox" />
+
+            <CheckBox
+                android:id="@+id/q2_check_box3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_checkbox"
+                android:text="@string/_black_and_grey"
+                android:textSize="@dimen/text_size_checkbox" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Question 3: Who loves boxes?"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/box_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the name of the box loving cat."
+            android:inputType="textCapSentences"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Question 4: Who loves cake?"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/cake_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the name of the cake loving cat."
+            android:inputType="textCapSentences"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Question 5: Who loves chili?"
+            android:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/chili_text_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type the name of the chili loving cat."
+            android:inputType="textCapSentences"
+            android:padding="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitAnswers"
+            android:padding="8dp"
+            android:text="@string/submit_answers" />
+
+        <TextView
+            android:id="@+id/score_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/_score_message"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cat_cookies"
+            android:scaleType="fitStart"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FamilyCatQuiz</string>
+    <string name="name">Name</string>
+    <string name="_1_cat">1 cat</string>
+    <string name="_2_cats">2 cats</string>
+    <string name="_3_cats">3 cats</string>
+    <string name="_berlin_cats">Question 1: How many cats live in Berlin?</string>
+    <string name="_friends">Question 2: Which cats are friends?</string>
+    <string name="_old_young">The oldest and youngest ones</string>
+    <string name="_berlin_boys">The Berlin boys</string>
+    <string name="_black_and_grey">The black and the grey one</string>
+    <string name="submit_answers">Submit answers</string>
+    <string name="_score_message">What will your score be?</string>
+</resources>
