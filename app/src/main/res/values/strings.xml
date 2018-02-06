@@ -12,4 +12,11 @@
     <string name="submit_answers">Submit answers</string>
     <string name="_score_message">What will your score be?</string>
     <string name="_welcome_message">How well do you know the cats in Nora\'s family? Play to find out!</string>
+    <string name="_hint_name">Enter your name here</string>
+    <string name="_hint_chili">Type the name of the chili loving cat</string>
+    <string name="_question_chili">Question 5: Who loves chili?</string>
+    <string name="_hint_cake">Type the name of the cake loving cat</string>
+    <string name="_question_cake">Question 4: Who loves cake?</string>
+    <string name="_hint_box">Type the name of the box loving cat</string>
+    <string name="_question_box">Question 3: Who loves boxes?</string>
 </resources>

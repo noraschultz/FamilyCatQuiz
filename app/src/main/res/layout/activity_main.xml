@@ -15,8 +15,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:textSize="24sp"
+            android:padding="@dimen/_padding_welcome"
+            android:textSize="@dimen/_text_size_wlecome"
             android:textStyle="italic"
             android:text="@string/_welcome_message"/>
 
@@ -31,16 +31,19 @@
             android:id="@+id/name_text_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter your name here"
+            android:hint="@string/_hint_name"
+            android:textSize="@dimen/_player_text_size"
+            android:textStyle="italic"
             android:inputType="textCapWords"
             android:padding="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="@string/_berlin_cats"
-            android:textAllCaps="true" />
+            android:padding="@dimen/_padding_question"
+            android:textSize="@dimen/_text_size_question"
+            android:textAllCaps="true"
+            android:text="@string/_berlin_cats"/>
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -77,7 +80,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
+            android:padding="@dimen/_padding_question"
+            android:textSize="@dimen/_text_size_question"
             android:text="@string/_friends"
             android:textAllCaps="true" />
 
@@ -108,66 +112,73 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Question 3: Who loves boxes?"
+            android:padding="@dimen/_padding_question"
+            android:textSize="@dimen/_text_size_question"
+            android:text="@string/_question_box"
             android:textAllCaps="true" />
 
         <EditText
             android:id="@+id/box_text_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the name of the box loving cat."
+            android:hint="@string/_hint_box"
+            android:textStyle="italic"
             android:inputType="textCapSentences"
             android:padding="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Question 4: Who loves cake?"
+            android:padding="@dimen/_padding_question"
+            android:textSize="@dimen/_text_size_question"
+            android:text="@string/_question_cake"
             android:textAllCaps="true" />
 
         <EditText
             android:id="@+id/cake_text_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the name of the cake loving cat."
+            android:hint="@string/_hint_cake"
+            android:textStyle="italic"
             android:inputType="textCapSentences"
-            android:padding="8dp" />
+            android:padding="@dimen/_padding_question" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
-            android:text="Question 5: Who loves chili?"
+            android:padding="@dimen/_padding_question"
+            android:textSize="@dimen/_text_size_question"
+            android:text="@string/_question_chili"
             android:textAllCaps="true" />
 
         <EditText
             android:id="@+id/chili_text_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Type the name of the chili loving cat."
+            android:hint="@string/_hint_chili"
+            android:textStyle="italic"
             android:inputType="textCapSentences"
-            android:padding="8dp" />
+            android:padding="@dimen/_padding_question" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="submitAnswers"
-            android:padding="8dp"
+            android:layout_margin="8dp"
             android:text="@string/submit_answers" />
 
         <TextView
             android:id="@+id/score_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="8dp"
+            android:padding="12dp"
             android:text="@string/_score_message"
             android:textColor="@android:color/black"
-            android:textSize="16sp"
+            android:textSize="@dimen/_text_size_score__message"
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/bottom_image_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/cat_cookies"

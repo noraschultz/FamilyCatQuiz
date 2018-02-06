@@ -2,4 +2,11 @@
 <resources>
     <dimen name="padding_checkbox">12dp</dimen>
     <dimen name="text_size_checkbox">16sp</dimen>
+    <dimen name="_padding_welcome">8dp</dimen>
+    <dimen name="_text_size_wlecome">24sp</dimen>
+    <dimen name="_padding_question">8dp</dimen>
+    <dimen name="_padding_button">12dp</dimen>
+    <dimen name="_text_size_score__message">16sp</dimen>
+    <dimen name="_text_size_question">16sp</dimen>
+    <dimen name="_player_text_size">24sp</dimen>
 </resources>
